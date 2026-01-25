@@ -21,8 +21,8 @@ jtcg-ai-agent/
 │ ├── intent.py                 # Intent detection
 │ ├── faq_rag.py                # FAQ retrieval
 │ ├── product_search.py         # Product recommendation
-│ ├── order_service.py          # Order query
-│ ├── handover.py               # Human handover
+│ ├── order_service.py         
+│ ├── handover.py               
 │ └── agent.py                  # Main agent class integrating all modules
 ├── data/                       # Sample data
 │ ├── knowledges.csv            # FAQ knowledge base
