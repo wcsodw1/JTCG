@@ -17,6 +17,9 @@ Handover to human agents when necessary
 The system also allows evaluation via simulated conversations to measure agent performance.
 
 ## Architecture Overview
+
+```bash
+
 jtcg-ai-agent/
 ├── agent/ # Core AI modules
 │ ├── intent.py # Intent detection
@@ -34,6 +37,7 @@ jtcg-ai-agent/
 │ └── evaluation_results.csv
 ├── requirements.txt # Dependencies
 └── README.md # Project overview
+```
 
 
 
