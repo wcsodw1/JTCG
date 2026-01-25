@@ -36,34 +36,33 @@ jtcg-ai-agent/
 └── README.md # Project overview
 
 
+
+---
+
 ## Workflow
 
-User sends a message.
+1. User sends a message.
+2. `agent/agent.py` detects the intent (`intent.py`).
+3. Relevant module is called based on intent:
+    - `faq_rag.py` → FAQ answer
+    - `product_search.py` → Product recommendation
+    - `order_service.py` → Order query
+    - `handover.py` → Transfer to human agent
+4. Agent returns the response, intent, and tool used.
+5. Optional: evaluation via `run_simulation.py`.
 
-agent/agent.py detects the intent (intent.py).
-
-Relevant module is called:
-
-faq_rag.py → FAQ answer
-
-product_search.py → Product recommendation
-
-order_service.py → Order query
-
-handover.py → Transfer to human agent
-
-Agent returns the response, intent, and tool used.
-
-Optional: evaluation via run_simulation.py.
+---
 
 ## How to Use
-Install dependencies
 
+### Install dependencies
+
+```bash
 pip install -r requirements.txt
 
 
-Run the agent
 
+Run the agent
 from agent.agent import Agent
 
 agent = Agent()
