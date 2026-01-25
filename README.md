@@ -17,22 +17,22 @@ Additionally, the system supports evaluation through simulated conversations, al
 ```bash
 
 jtcg-ai-agent/
-├── agent/ # Core AI modules
-│ ├── intent.py # Intent detection
-│ ├── faq_rag.py # FAQ retrieval
-│ ├── product_search.py # Product recommendation
-│ ├── order_service.py # Order query
-│ ├── handover.py # Human handover
-│ └── agent.py # Main agent class integrating all modules
-├── data/ # Sample data
-│ ├── knowledges.csv # FAQ knowledge base
-│ ├── products.csv # Products information
-│ └── orders.json # Order records
-├── evaluation/ # Simulation & evaluation
-│ ├── run_simulation.py # Run test conversations
+├── agent/                      # Core AI modules
+│ ├── intent.py                 # Intent detection
+│ ├── faq_rag.py                # FAQ retrieval
+│ ├── product_search.py         # Product recommendation
+│ ├── order_service.py          # Order query
+│ ├── handover.py               # Human handover
+│ └── agent.py                  # Main agent class integrating all modules
+├── data/                       # Sample data
+│ ├── knowledges.csv            # FAQ knowledge base
+│ ├── products.csv              # Products information
+│ └── orders.json               # Order records
+├── evaluation/                 # Simulation & evaluation
+│ ├── run_simulation.py         
 │ └── evaluation_results.csv
-├── requirements.txt # Dependencies
-└── README.md # Project overview
+├── requirements.txt 
+└── README.md 
 ```
 
 
