@@ -1,20 +1,16 @@
 # jtcg-ai-agent
 ## Project Purpose
 
-jtcg-ai-agent is an AI-powered conversational agent designed for customer support scenarios.
-It can:
+**jtcg-ai-agent** is an AI-powered conversational agent designed to handle customer support tasks efficiently.  
 
-Detect user intent
+It can:  
+- Detect user intent  
+- Answer frequently asked questions (FAQs)  
+- Recommend products  
+- Query order status  
+- Handover conversations to human agents when necessary  
 
-Answer FAQs
-
-Recommend products
-
-Query order status
-
-Handover to human agents when necessary
-
-The system also allows evaluation via simulated conversations to measure agent performance.
+Additionally, the system supports evaluation through simulated conversations, allowing you to measure and improve agent performance.
 
 ## Architecture Overview
 
