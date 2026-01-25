@@ -60,16 +60,19 @@ jtcg-ai-agent/
 ```bash
 pip install -r requirements.txt
 
-
+```
 
 Run the agent
+```bash
 from agent.agent import Agent
 
 agent = Agent()
 response = agent.run("請問我訂單狀態")
 print(response)
-
+```
 
 Run simulation evaluation
 
+```bash
 python evaluation/run_simulation.py
+```
