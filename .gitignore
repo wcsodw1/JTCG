@@ -1,0 +1,37 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Virtualenv / venv setup
+include/
+lib/
+bin/
+share/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDEs (VS Code / PyCharm)
+.vscode/
+.idea/
+
+# Local data (Optional: keep these if you want to share the DB)
+# If you want to keep the raw CSVs in GitHub, don't ignore them.
+# If they are very large or private, uncomment the lines below:
+# data/*.csv
+# data/*.json
+
+# Logs
+*.log
+
+# CSV results from simulation (Keep the final one, but ignore local temporary ones)
+# evaluation/eval_results_full_compare.csv

@@ -1,0 +1,7 @@
+{
+   "orders_db": {
+      "u_123456": { "orders": [{"order_id": "JTCG-202508-10001", "status": "in_transit"}] },
+      "u_999999": { "orders": [{"order_id": "JTCG-202508-11021", "status": "processing"}] },
+      "u_222222": { "orders": [{"order_id": "JTCG-202508-12005", "status": "shipped"}] }
+   }
+}
