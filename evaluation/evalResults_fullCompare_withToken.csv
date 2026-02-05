@@ -1,0 +1,841 @@
+﻿Scenario_ID,Turn,Role,Original_Text,Agent_New_Response,Decision,Is_Correct
+1,1,user,請問你們的退換貨政策是什麼？,"JTCG Shop 提供 7 天鑑賞期（含例假日）。商品需保持全新、完整包裝與配件。若為非瑕疵退換貨，可能需自行負擔來回運費。
+🔗 詳情參考: https://example.com/jtcg/policies/returns",3,
+2,1,user,保固多久？維修怎麼申請？,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+3,1,user,發票可以開三聯式嗎？要怎麼填統編？,"本店提供電子發票，出貨完成後將以 Email 寄送或於會員中心可下載查詢。若需三聯式發票，請於下單時備註統編與抬頭。
+🔗 詳情參考: https://example.com/jtcg/policies/invoice",3,
+4,1,user,出貨大概幾天？有免運嗎？,"現貨商品於 1–2 個工作天出貨；預購商品依頁面標示為準。標準運送滿 NT$1,500 免運；離島或外島運費另計。
+🔗 詳情參考: https://example.com/jtcg/policies/shipping",3,
+5,1,user,VESA 100x100 的螢幕可以用哪支臂？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+6,1,user,我的桌板厚 85mm，夾具能裝嗎？,"夾具建議安裝於 10–85mm 厚之桌板；如為玻璃或軟木材質，建議使用墊片或改用穿孔固定方式。
+🔗 詳情參考: https://example.com/jtcg/guides/desk-compat",3,
+7,1,user,我要找真人客服,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+8,1,user,轉真人，謝謝,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+9,1,user,human agent please,Please provide your Email to transfer to a human agent.,1,
+10,1,user,connect to agent,Please provide your Email to transfer to a human agent.,1,
+11,1,user,我想要推薦雙螢幕支架，27 吋,"可混搭，但建議兩側重量相近以利平衡。使用雙臂時，請分別調整各臂張力，使兩台螢幕都能穩定停駐。
+🔗 詳情參考: https://example.com/jtcg/guides/dual-setup",3,
+12,1,user,34 吋曲面螢幕適合哪一款臂架？,"為您推薦：JTCG 壁掛式伸縮臂（至 34 吋）
+規格：螢幕支援: 34.0 吋 | 承重: 2-12kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-WALL-ARM-34",4,
+13,1,user,49 吋超寬螢幕有支援的重載臂嗎？,"為您推薦：JTCG 超寬螢幕重載臂（至 49 吋）
+規格：螢幕支援: 49.0 吋 | 承重: 5-18kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-ULTRAWIDE-49",4,
+14,1,user,要壁掛有推薦嗎？,"建議安裝於磚牆或實心牆面；若為石膏板/輕隔間需使用對應膨脹螺絲或請專業安裝。請先評估牆面承重。
+🔗 詳情參考: https://example.com/jtcg/guides/wall-mount",3,
+15,1,user,有沒有筆電托盤可以接 VESA？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+16,1,user,走線管理套件有賣嗎？,"建議沿臂架後側與走線槽固定，預留轉動餘量避免拉扯。轉接器與變壓器避免懸空以降低接口受力。
+🔗 詳情參考: https://example.com/jtcg/guides/cable-management",3,
+17,1,user,請問可用 Apple Pay 或 LINE Pay 嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+18,1,user,可以分期付款嗎？,"JTCG Shop 支援信用卡（VISA/Master/JCB）、Apple Pay、Google Pay、LINE Pay。部分銀行提供 3/6/12 期分期，實際手續費與門檻以結帳頁提示為準。
+🔗 詳情參考: https://example.com/jtcg/policies/payment",3,
+19,1,user,海外寄送香港可以嗎？,"目前主要配送台灣本島；離島/外島運費與時程將於結帳頁顯示。海外配送可先透過客服評估可行方案與預估費用。
+🔗 詳情參考: https://example.com/jtcg/policies/international",3,
+20,1,user,缺貨能設定到貨通知嗎？,"商品頁可點選「到貨通知我」，系統會在補貨後以 Email 通知。提醒僅代表可下單，實際購買以結帳成功為準。
+🔗 詳情參考: https://example.com/jtcg/account/notifications",3,
+21,1,user,有提供到府安裝嗎？,"特定地區提供到府安裝（由合作廠商執行），費用依地區與安裝難度另計。下單前可先與客服確認是否支援。
+🔗 詳情參考: https://example.com/jtcg/services/installation",3,
+22,1,user,夾具跟穿孔裝哪個比較穩？,"夾具安裝免鑽孔、便利度高；穿孔固定穩定性更佳、適合厚桌板或特殊材質。若為玻璃/軟木桌板，建議使用墊片或改穿孔。
+🔗 詳情參考: https://example.com/jtcg/guides/clamp-vs-grommet",3,
+23,1,user,螢幕 6 公斤可以用哪款？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+24,1,user,氣壓臂張力要怎麼調？,"安裝後以附贈六角扳手順時針/逆時針微調張力，使螢幕能穩定停在常用高度。請逐步調整並避免一次轉動過多圈數。
+🔗 詳情參考: https://example.com/jtcg/guides/gas-spring-tuning",3,
+25,1,user,沒有 VESA 孔怎麼裝？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+26,1,user,家裡有小孩，使用安全要注意什麼？,"夾具建議加裝保護墊片，避免桌面刮傷。請避免孩童攀爬或懸掛螢幕臂，並定期檢查螺絲鎖固狀況。
+🔗 詳情參考: https://example.com/jtcg/guides/safety",3,
+27,1,user,壁掛需要什麼牆面條件？,"建議安裝於磚牆或實心牆面；若為石膏板/輕隔間需使用對應膨脹螺絲或請專業安裝。請先評估牆面承重。
+🔗 詳情參考: https://example.com/jtcg/guides/wall-mount",3,
+28,1,user,要申請 RMA 維修怎麼做？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+29,1,user,電子發票可以重發嗎？,"本店提供電子發票，出貨完成後將以 Email 寄送或於會員中心可下載查詢。若需三聯式發票，請於下單時備註統編與抬頭。
+🔗 詳情參考: https://example.com/jtcg/policies/invoice",3,
+30,1,user,公司想大量採購可以報價嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+31,1,user,退貨流程跟退款時程？,"線上提出申請→包裝回收→檢查完成後辦理退款。退款時程約 7–14 個工作天，依支付方式與銀行作業為準。
+🔗 詳情參考: https://example.com/jtcg/policies/return-flow",3,
+32,1,user,怎麼查物流追蹤？,"出貨後可於「我的訂單」頁點擊追蹤碼查看最新配送狀態。若長時間無更新，請聯繫客服協助查詢。
+🔗 詳情參考: https://example.com/jtcg/account/orders",3,
+33,1,user,會員點數怎麼用？,"會員點數可於結帳抵用，不得折換現金。有效期限與可用規則以會員中心公告為準。
+🔗 詳情參考: https://example.com/jtcg/account/rewards",3,
+34,1,user,臂架保養清潔怎麼做？,"建議以微濕布擦拭，避免使用含溶劑之清潔劑。定期檢查關節與螺絲是否鬆動並適度調整。
+🔗 詳情參考: https://example.com/jtcg/guides/care",3,
+35,1,user,桌深需要多少？牆距要留多少？,"臂展會影響可調整範圍；一般建議桌深至少 60cm，桌面後方保留 10–15cm 以利走線與臂架活動。
+🔗 詳情參考: https://example.com/jtcg/guides/desk-space",3,
+36,1,user,走線有什麼整理建議？,"建議沿臂架後側與走線槽固定，預留轉動餘量避免拉扯。轉接器與變壓器避免懸空以降低接口受力。
+🔗 詳情參考: https://example.com/jtcg/guides/cable-management",3,
+37,1,user,贈品沒附到可以補寄嗎？,"贈品以活動頁標示為準；若到貨未含贈品，請於 7 日內附上開箱照片與訂單資訊，客服將協助補寄。
+🔗 詳情參考: https://example.com/jtcg/promotions/gifts",3,
+38,1,user,VESA 螺絲規格要用多長？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+39,1,user,能跟電動升降桌一起用嗎？,"可搭配，但請留意臂展與走線鬆弛度，避免升降時拉扯線材。建議預留 10–15cm 線材餘量，電源變壓器避免懸空。
+🔗 詳情參考: https://example.com/jtcg/guides/sit-stand",3,
+40,1,user,桌後有擋板，夾具還能裝嗎？,"夾具安裝免鑽孔、便利度高；穿孔固定穩定性更佳、適合厚桌板或特殊材質。若為玻璃/軟木桌板，建議使用墊片或改穿孔。
+🔗 詳情參考: https://example.com/jtcg/guides/clamp-vs-grommet",3,
+41,1,user,兩台不同尺寸的螢幕可不可以混搭？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+42,1,user,包裝內有附哪些工具和零件？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+43,1,user,外箱撞到、零件少了怎麼辦？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+44,1,user,下單後想改地址可以嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+45,1,user,可以取消訂單嗎？,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+46,1,user,預購會分批出貨嗎？,"現貨商品於 1–2 個工作天出貨；預購商品依頁面標示為準。標準運送滿 NT$1,500 免運；離島或外島運費另計。
+🔗 詳情參考: https://example.com/jtcg/policies/shipping",3,
+47,1,user,保固需要另外登錄嗎？可以轉移嗎？,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+48,1,user,臂架有異音怎麼處理？,"輕微金屬摩擦聲屬正常磨合；若異音明顯，建議檢查螺絲鎖付與走線是否干涉，必要時於關節轉點施以少量潤滑（請勿沾染面板）。
+🔗 詳情參考: https://example.com/jtcg/guides/maintenance",3,
+49,1,user,螺絲、轉接板這些備品能單買嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+50,1,user,如果剛買就降價，會補差嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+51,1,user,你們會怎麼使用我的 Email？,"您提供的 Email 僅用於本次服務聯繫與訂單通知，不做行銷用途。更多細節請參考隱私權政策。
+🔗 詳情參考: https://example.com/jtcg/policies/privacy",3,
+52,1,user,我想查訂單狀態,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+53,1,user,幫我查一下配送進度,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+54,1,user,查訂單 JTCG-202508-10001 的明細,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+55,1,user,我的 user_id 是 u_123456，想看歷史訂單,"為您找到以下訂單：
+- 訂單號: JTCG-202508-10001 | 狀態: in_transit | 品項: ",2,
+56,1,user,user_id u_999999，查最近那筆訂單,"為您找到以下訂單：
+- 訂單號: JTCG-202508-11021 | 狀態: processing | 品項: ",2,
+57,1,user,我要看訂單列表,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+58,1,user,請轉真人，我很急,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+59,1,user,在線客服在嗎？,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+60,1,user,service hours 客服什麼時段有？,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+61,1,user,請推薦一款 32 吋可用的單臂,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+62,1,user,雙螢幕 + 筆電托盤要怎麼搭配？,"可混搭，但建議兩側重量相近以利平衡。使用雙臂時，請分別調整各臂張力，使兩台螢幕都能穩定停駐。
+🔗 詳情參考: https://example.com/jtcg/guides/dual-setup",3,
+63,1,user,VESA 200x100 能用哪款？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+64,1,user,我的桌子是玻璃的，怎麼裝比較安全？,"夾具建議加裝保護墊片，避免桌面刮傷。請避免孩童攀爬或懸掛螢幕臂，並定期檢查螺絲鎖固狀況。
+🔗 詳情參考: https://example.com/jtcg/guides/safety",3,
+65,1,user,大概多少時間可以安裝完成？,"特定地區提供到府安裝（由合作廠商執行），費用依地區與安裝難度另計。下單前可先與客服確認是否支援。
+🔗 詳情參考: https://example.com/jtcg/services/installation",3,
+66,1,user,付款失敗怎麼辦？,"JTCG Shop 支援信用卡（VISA/Master/JCB）、Apple Pay、Google Pay、LINE Pay。部分銀行提供 3/6/12 期分期，實際手續費與門檻以結帳頁提示為準。
+🔗 詳情參考: https://example.com/jtcg/policies/payment",3,
+67,1,user,可以改成面交嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+68,1,user,我想知道活動優惠的使用規則,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+69,1,user,我需要發票抬頭變更,"本店提供電子發票，出貨完成後將以 Email 寄送或於會員中心可下載查詢。若需三聯式發票，請於下單時備註統編與抬頭。
+🔗 詳情參考: https://example.com/jtcg/policies/invoice",3,
+70,1,user,客服信箱是多少？,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+71,1,user,退款多久會到帳？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+72,1,user,How to track my order?,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+73,1,user,Do you ship internationally?,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+74,1,user,Need invoice reissue,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+75,1,user,請問台北有安裝服務嗎？,"特定地區提供到府安裝（由合作廠商執行），費用依地區與安裝難度另計。下單前可先與客服確認是否支援。
+🔗 詳情參考: https://example.com/jtcg/services/installation",3,
+76,1,user,JTCG-ARM-DUAL-PRO-32 有現貨嗎？,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+77,1,user,JTCG-ARM-ULTRAWIDE-49 支援 49 吋曲面嗎？,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+78,1,user,JTCG-WALL-ARM-34 是否含膨脹螺絲？,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+79,1,user,JTCG-LAPTOP-VESA-KIT 能裝 16 吋筆電嗎？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+80,1,user,JTCG-CABLE-MGMT-KIT 裡面有哪些配件？,"可於配件館選購常用耗材與備品（螺絲組、轉接板、走線配件等）。如找不到對應零件，請提供 SKU 與需求給客服協助。
+🔗 詳情參考: https://example.com/jtcg/accessories",3,
+81,1,user,我桌板 20mm，夾具夠嗎？,"夾具建議安裝於 10–85mm 厚之桌板；如為玻璃或軟木材質，建議使用墊片或改用穿孔固定方式。
+🔗 詳情參考: https://example.com/jtcg/guides/desk-compat",3,
+82,1,user,請問保固範圍包含人為損壞嗎？,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+83,1,user,有企業合作方案嗎？學校採購也適用？,"可提供專案報價、到府安裝與教育/企業折扣評估。請提供需求數量、安裝地點與時程以利評估。
+🔗 詳情參考: https://example.com/jtcg/b2b/quote",3,
+84,1,user,發票什麼時候寄？可在哪裡下載？,"本店提供電子發票，出貨完成後將以 Email 寄送或於會員中心可下載查詢。若需三聯式發票，請於下單時備註統編與抬頭。
+🔗 詳情參考: https://example.com/jtcg/policies/invoice",3,
+85,1,user,我不確定要買哪款，你可以問我幾個問題幫我選嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+86,1,user,請問可否貨到付款？,"JTCG Shop 支援信用卡（VISA/Master/JCB）、Apple Pay、Google Pay、LINE Pay。部分銀行提供 3/6/12 期分期，實際手續費與門檻以結帳頁提示為準。
+🔗 詳情參考: https://example.com/jtcg/policies/payment",3,
+87,1,user,LINE Pay 有回饋嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+88,1,user,海外退貨流程怎麼辦？,"目前主要配送台灣本島；離島/外島運費與時程將於結帳頁顯示。海外配送可先透過客服評估可行方案與預估費用。
+🔗 詳情參考: https://example.com/jtcg/policies/international",3,
+89,1,user,我想看雙螢幕支架的比較,"可混搭，但建議兩側重量相近以利平衡。使用雙臂時，請分別調整各臂張力，使兩台螢幕都能穩定停駐。
+🔗 詳情參考: https://example.com/jtcg/guides/dual-setup",3,
+90,1,user,請幫我把客服轉真人（human agent）,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+91,1,user,这款支架支持75×75吗？（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+92,1,user,退货政策是什么？（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+93,1,user,发票怎么开？（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+94,1,user,有没有49寸显示器支架？（简体）,"為您推薦：JTCG 超寬螢幕重載臂（至 49 吋）
+規格：螢幕支援: 49.0 吋 | 承重: 5-18kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-ULTRAWIDE-49",4,
+95,1,user,我要查询订单（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+96,1,user,請問你們的客服時間？,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+97,1,user,運費怎麼計算？離島另外加價嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+98,1,user,如果螢幕 8 公斤，哪個型號比較適合？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+99,1,user,我有兩台 27 吋要左右擺，推薦？,"為您推薦：JTCG 單臂支架 Lite（至 27 吋）
+規格：螢幕支援: 27.0 吋 | 承重: 1-6kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-SINGLE-LITE-27",4,
+100,1,user,請幫我連接人工客服，我的問題很複雜,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+101,1,user,我想退貨流程怎麼走？順便推薦一支 27 吋單臂,"線上提出申請→包裝回收→檢查完成後辦理退款。退款時程約 7–14 個工作天，依支付方式與銀行作業為準。
+🔗 詳情參考: https://example.com/jtcg/policies/return-flow",3,
+102,1,user,請問保固多久，另外 32 吋有沒有現貨？,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+103,1,user,我要查訂單配送進度，也想問免運門檻,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+104,1,user,可以轉真人嗎？同時幫我看一下 JTCG-ARM-DUAL-PRO-32 的相容性,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+105,1,user,我想知道客服時間，還有壁掛臂哪款最穩,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+106,1,user,查訂單 JTCG-202508-10001 的狀態，另外這款有配件嗎？,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+107,1,user,退貨政策與是否支援 Apple Pay 一起告訴我,"線上提出申請→包裝回收→檢查完成後辦理退款。退款時程約 7–14 個工作天，依支付方式與銀行作業為準。
+🔗 詳情參考: https://example.com/jtcg/policies/return-flow",3,
+108,1,user,海外寄送可以嗎？同時推薦重載臂,"目前主要配送台灣本島；離島/外島運費與時程將於結帳頁顯示。海外配送可先透過客服評估可行方案與預估費用。
+🔗 詳情參考: https://example.com/jtcg/policies/international",3,
+109,1,user,想比較雙臂 vs 壁掛，順便看我的歷史訂單,"夾具安裝免鑽孔、便利度高；穿孔固定穩定性更佳、適合厚桌板或特殊材質。若為玻璃/軟木桌板，建議使用墊片或改穿孔。
+🔗 詳情參考: https://example.com/jtcg/guides/clamp-vs-grommet",3,
+110,1,user,請直接找真人，還要查 order_id 清單,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+111,1,user,"My order status please, and recommend a 49"" mount.","為您推薦：JTCG 超寬螢幕重載臂（至 49 吋）
+規格：螢幕支援: 49.0 吋 | 承重: 5-18kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-ULTRAWIDE-49",4,
+112,1,user,Do you ship internationally and what's your return policy?,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+113,1,user,我要發票三聯，另外幫我挑一款支架,"本店提供電子發票，出貨完成後將以 Email 寄送或於會員中心可下載查詢。若需三聯式發票，請於下單時備註統編與抬頭。
+🔗 詳情參考: https://example.com/jtcg/policies/invoice",3,
+114,1,user,客服表單在哪？也想設定到貨通知,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+115,1,user,能不能取消訂單，同時問問保固可轉移嗎？,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+116,1,user,我有 user_id u_123456，想看訂單並問 VESA 200x100 可以用哪款,"為您找到以下訂單：
+- 訂單號: JTCG-202508-10001 | 狀態: in_transit | 品項: ",2,
+117,1,user,付款方式有哪些？另外幫我查一下最近一筆訂單,"JTCG Shop 支援信用卡（VISA/Master/JCB）、Apple Pay、Google Pay、LINE Pay。部分銀行提供 3/6/12 期分期，實際手續費與門檻以結帳頁提示為準。
+🔗 詳情參考: https://example.com/jtcg/policies/payment",3,
+118,1,user,桌板 15mm 能夾嗎？還有物流多久到,"夾具建議安裝於 10–85mm 厚之桌板；如為玻璃或軟木材質，建議使用墊片或改用穿孔固定方式。
+🔗 詳情參考: https://example.com/jtcg/guides/desk-compat",3,
+119,1,user,我想要真人客服，也幫我估算運費,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+120,1,user,想了解促銷規則，另外 27 吋雙螢幕建議,"可混搭，但建議兩側重量相近以利平衡。使用雙臂時，請分別調整各臂張力，使兩台螢幕都能穩定停駐。
+🔗 詳情參考: https://example.com/jtcg/guides/dual-setup",3,
+121,1,user,查詢 u_999999 的訂單，同時詢問保固申請流程,"為您找到以下訂單：
+- 訂單號: JTCG-202508-11021 | 狀態: processing | 品項: ",2,
+122,1,user,退貨退款多久？同時看一下壁掛伸縮距離,"建議安裝於磚牆或實心牆面；若為石膏板/輕隔間需使用對應膨脹螺絲或請專業安裝。請先評估牆面承重。
+🔗 詳情參考: https://example.com/jtcg/guides/wall-mount",3,
+123,1,user,我想預購，還想知道客服有沒有週末,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+124,1,user,这款支架支持75×75吗？另外能查订单吗？（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+125,1,user,我要查询订单并了解退货规则（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+126,1,user,請問可以分期嗎？另外跟我說 RMA 怎麼申請,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+127,1,user,我需要到府安裝資訊，也想問是否支援 34 吋曲面,"特定地區提供到府安裝（由合作廠商執行），費用依地區與安裝難度另計。下單前可先與客服確認是否支援。
+🔗 詳情參考: https://example.com/jtcg/services/installation",3,
+128,1,user,想要看 accessories 清單，順便查配送,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+129,1,user,tracking 沒更新，轉真人並推薦穩定款,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+130,1,user,會員點數怎麼用？同時幫我找 JTCG-LAPTOP-VESA-KIT,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+131,1,user,請問客服電話？另外 32 吋 100x100 有沒有推薦,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+132,1,user,我想更改地址，同時問走線組合內容,"建議沿臂架後側與走線槽固定，預留轉動餘量避免拉扯。轉接器與變壓器避免懸空以降低接口受力。
+🔗 詳情參考: https://example.com/jtcg/guides/cable-management",3,
+133,1,user,能否面交？另外把我訂單列表列出來,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+134,1,user,海外退貨流程？也順便轉真人,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+135,1,user,我想要到貨通知，同時比較兩款雙臂,"請立即拍攝外箱與內容物狀況，連同訂單編號於 7 日內回報客服。我們會協助更換缺件或安排售後處理。
+🔗 詳情參考: https://example.com/jtcg/support/arrival-issue",3,
+136,1,user,保固一年嗎？另外 u_222222 的訂單 ETA？,"為您找到以下訂單：
+- 訂單號: JTCG-202508-12005 | 狀態: shipped | 品項: ",2,
+137,1,user,請問免運，還有推薦一款壁掛,"建議安裝於磚牆或實心牆面；若為石膏板/輕隔間需使用對應膨脹螺絲或請專業安裝。請先評估牆面承重。
+🔗 詳情參考: https://example.com/jtcg/guides/wall-mount",3,
+138,1,user,invoice 可以重發嗎？另外幫我看有沒有 200x100 支援的臂,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+139,1,user,"human agent please, also what’s your shipping fee?",Please provide your Email to transfer to a human agent.,1,
+140,1,user,connect to agent and list my recent orders.,Please provide your Email to transfer to a human agent.,1,
+141,1,user,我要取消訂單與詢問退款時程,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+142,1,user,我想查訂單，並問是否支援 Google Pay,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+143,1,user,桌後有擋板能裝嗎？順便推薦短臂,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+144,1,user,請告訴我出貨時程與保固條款重點,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+145,1,user,客服時段？還有 JTCG-ARM-ULTRAWIDE-49 相容性,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+146,1,user,查詢 JTCG-202507-30021，同時想知道可以直立旋轉嗎,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+147,1,user,我想詢問贈品補寄，同時比較單臂/氣壓臂,"安裝後以附贈六角扳手順時針/逆時針微調張力，使螢幕能穩定停在常用高度。請逐步調整並避免一次轉動過多圈數。
+🔗 詳情參考: https://example.com/jtcg/guides/gas-spring-tuning",3,
+148,1,user,Do you have wall mount? Also check my tracking.,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+149,1,user,請幫我轉真人，同時設定到貨通知,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+150,1,user,我想問優惠券能否併用，還要看訂單列表,"每筆訂單限使用一張優惠券；不得與部分專案或企業報價合併使用；活動期間與適用品項以頁面公告為準。
+🔗 詳情參考: https://example.com/jtcg/promotions",3,
+151,1,user,退貨需要原包裝嗎？另外推薦 16 吋筆電托盤,"線上提出申請→包裝回收→檢查完成後辦理退款。退款時程約 7–14 個工作天，依支付方式與銀行作業為準。
+🔗 詳情參考: https://example.com/jtcg/policies/return-flow",3,
+152,1,user,想了解 RMA 表單，同時查 u_555555 最新訂單,找不到 User ID: u_555555 的訂單資料。,2,
+153,1,user,我有兩台 27 吋要混搭，順便問免運門檻,"為您推薦：JTCG 單臂支架 Lite（至 27 吋）
+規格：螢幕支援: 27.0 吋 | 承重: 1-6kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-SINGLE-LITE-27",4,
+154,1,user,付款失敗怎麼辦？也看看我上一筆訂單狀態,"JTCG Shop 支援信用卡（VISA/Master/JCB）、Apple Pay、Google Pay、LINE Pay。部分銀行提供 3/6/12 期分期，實際手續費與門檻以結帳頁提示為準。
+🔗 詳情參考: https://example.com/jtcg/policies/payment",3,
+155,1,user,請提供發票下載位置，並推薦走線配件,"本店提供電子發票，出貨完成後將以 Email 寄送或於會員中心可下載查詢。若需三聯式發票，請於下單時備註統編與抬頭。
+🔗 詳情參考: https://example.com/jtcg/policies/invoice",3,
+156,1,user,壁掛需要什麼牆體？也請轉真人諮詢,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+157,1,user,請問隱私政策，另外轉真人處理發票抬頭,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+158,1,user,能給我客服時間嗎？以及 27 吋單臂對比表,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+159,1,user,我要看訂單清單，並問 49 吋是否太重,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+160,1,user,發票改抬頭可以嗎？同時列出我的 order_id,"本店提供電子發票，出貨完成後將以 Email 寄送或於會員中心可下載查詢。若需三聯式發票，請於下單時備註統編與抬頭。
+🔗 詳情參考: https://example.com/jtcg/policies/invoice",3,
+161,1,user,我想問安裝時間，要 20 分鐘內能完成的款式，順便看運費,"特定地區提供到府安裝（由合作廠商執行），費用依地區與安裝難度另計。下單前可先與客服確認是否支援。
+🔗 詳情參考: https://example.com/jtcg/services/installation",3,
+162,1,user,桌深 60cm 夠嗎？另外查一下配送進度,"臂展會影響可調整範圍；一般建議桌深至少 60cm，桌面後方保留 10–15cm 以利走線與臂架活動。
+🔗 詳情參考: https://example.com/jtcg/guides/desk-space",3,
+163,1,user,預購會分批出貨嗎？也幫我推薦超寬臂,"現貨商品於 1–2 個工作天出貨；預購商品依頁面標示為準。標準運送滿 NT$1,500 免運；離島或外島運費另計。
+🔗 詳情參考: https://example.com/jtcg/policies/shipping",3,
+164,1,user,你們會支援 LINE Pay 嗎？同時查最新訂單,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+165,1,user,是否支援 Apple Pay？另外 VESA 轉接板哪款,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+166,1,user,請轉真人，同時幫我估重量是否合適,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+167,1,user,I need invoice reissue and a mount suggestion.,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+168,1,user,查詢購買紀錄，另外比較雙臂承重差異,"選購臂架時請以「螢幕淨重（不含原廠腳座）」為準，並確認 VESA 規格與臂架承重範圍。超寬/曲面機種建議搭配強化背板。
+🔗 詳情參考: https://example.com/jtcg/guides/weight-compat",3,
+169,1,user,客服表單連結？同時推薦壁掛與桌夾差異,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+170,1,user,有沒有 USB hub 的臂？順便查 u_333333 訂單,找不到 User ID: u_333333 的訂單資料。,2,
+171,1,user,退貨與換貨差別？另外有沒有現貨資訊,"線上提出申請→包裝回收→檢查完成後辦理退款。退款時程約 7–14 個工作天，依支付方式與銀行作業為準。
+🔗 詳情參考: https://example.com/jtcg/policies/return-flow",3,
+172,1,user,能否改用穿孔固定？也給我我的訂單列表,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+173,1,user,請問兒童安全注意事項，順便推薦穩定款,"夾具建議加裝保護墊片，避免桌面刮傷。請避免孩童攀爬或懸掛螢幕臂，並定期檢查螺絲鎖固狀況。
+🔗 詳情參考: https://example.com/jtcg/guides/safety",3,
+174,1,user,黑貓配送多久？同時問有沒有分期,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+175,1,user,I want to cancel and also get a recommendation.,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+176,1,user,Can you track my order and tell me return policy?,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+177,1,user,轉真人處理 RMA，同時想看壁掛指南,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+178,1,user,user_id u_empty，還有推薦入門款嗎？,找不到 User ID: u_empty 的訂單資料。,2,
+179,1,user,退款進度多久？同時產品相容性請告訴我,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+180,1,user,客服是否週末有？也幫我設定到貨通知,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+181,1,user,我要查 JTCG-202508-15083，順便問 49 吋是否支援 200x100,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+182,1,user,這款支架會刮桌嗎？另請查我的配送,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+183,1,user,發票丟了怎麼辦？也想轉真人,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+184,1,user,請給價格保護說明，並推薦替代品,"若商品於短期內調降價格，是否提供補差以活動頁公告為準；不同活動檔期可能不適用價格保護。
+🔗 詳情參考: https://example.com/jtcg/policies/price-protect",3,
+185,1,user,運費怎麼算？同時比較兩款單臂價格,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+186,1,user,海外購買保固可用嗎？順便看我的訂單,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+187,1,user,我想升級到雙臂，同時查一下 ETA,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+188,1,user,桌子是玻璃，推薦方案並查最近訂單,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+189,1,user,請列我的 order_id，還要問客服時間,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+190,1,user,配送卡在處理中，請轉真人並推薦短臂,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+191,1,user,想問優惠券規則，另外這支臂可直立？,"每筆訂單限使用一張優惠券；不得與部分專案或企業報價合併使用；活動期間與適用品項以頁面公告為準。
+🔗 詳情參考: https://example.com/jtcg/promotions",3,
+192,1,user,請問保固登錄流程，與是否可轉讓？,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+193,1,user,能否看走線教學，同時查 tracking 碼,"建議沿臂架後側與走線槽固定，預留轉動餘量避免拉扯。轉接器與變壓器避免懸空以降低接口受力。
+🔗 詳情參考: https://example.com/jtcg/guides/cable-management",3,
+194,1,user,貨到時可加購安裝嗎？並列出訂單清單,"特定地區提供到府安裝（由合作廠商執行），費用依地區與安裝難度另計。下單前可先與客服確認是否支援。
+🔗 詳情參考: https://example.com/jtcg/services/installation",3,
+195,1,user,請問是否可面交，若不行推薦最快到貨的款式,"請立即拍攝外箱與內容物狀況，連同訂單編號於 7 日內回報客服。我們會協助更換缺件或安排售後處理。
+🔗 詳情參考: https://example.com/jtcg/support/arrival-issue",3,
+196,1,user,我想查配送，同時問 VESA 75×75 相容,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+197,1,user,退货流程+商品推荐（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+198,1,user,查询订单+转人工（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+199,1,user,Compare two mounts and cancel my latest order.,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+200,1,user,客服时段+是否支持Apple Pay（简体）,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+201,1,user,請問你們的退換貨政策是什麼？,"JTCG Shop 提供 7 天鑑賞期（含例假日）。商品需保持全新、完整包裝與配件。若為非瑕疵退換貨，可能需自行負擔來回運費。
+🔗 詳情參考: https://example.com/jtcg/policies/returns",3,
+201,2,assistant,JTCG Shop 提供 7 天鑑賞期；商品需保持全新且包裝配件完整，非瑕疵退換可能需自行負擔運費。需要我貼上政策頁連結嗎？,,,
+201,3,user,好，請給我政策連結,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+202,1,user,保固多久？要怎麼申請維修？,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+202,2,assistant,臂架類商品享 1 年有限保固，申請維修時請準備訂單編號與故障照片/影片，我可提供線上申請表單連結。要現在申請嗎？,,,
+202,3,user,先給我表單連結就好,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+203,1,user,發票可以開三聯式嗎？結帳時要填什麼？,"本店提供電子發票，出貨完成後將以 Email 寄送或於會員中心可下載查詢。若需三聯式發票，請於下單時備註統編與抬頭。
+🔗 詳情參考: https://example.com/jtcg/policies/invoice",3,
+203,2,assistant,可以三聯；請在下單時填寫統編與抬頭。出貨後會寄電子發票，也可在會員中心下載。需要教學連結嗎？,,,
+203,3,user,需要，謝謝,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+204,1,user,一般出貨要幾天？有沒有免運門檻？,"現貨商品於 1–2 個工作天出貨；預購商品依頁面標示為準。標準運送滿 NT$1,500 免運；離島或外島運費另計。
+🔗 詳情參考: https://example.com/jtcg/policies/shipping",3,
+204,2,assistant,"現貨 1–2 個工作天出貨；滿 NT$1,500 免運（離島另計）。要幫你確認某商品是否現貨嗎？",,,
+204,3,user,想查 JTCG-ARM-DUAL-PRO-32 是否現貨,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+205,1,user,VESA 100x100 的 27 吋螢幕，有推薦的單臂嗎？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+205,2,assistant,可參考「JTCG 單臂支架 Lite（至 27 吋）」；支援 75x75/100x100，適合輕量螢幕。要我貼商品頁嗎？,,,
+205,3,user,貼連結給我,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+206,1,user,桌板厚 85mm 可以用夾具嗎？,"夾具建議安裝於 10–85mm 厚之桌板；如為玻璃或軟木材質，建議使用墊片或改用穿孔固定方式。
+🔗 詳情參考: https://example.com/jtcg/guides/desk-compat",3,
+206,2,assistant,多數夾具支援約 10–85mm；若材質為玻璃或軟木，建議加墊片或使用穿孔固定。需要安裝指南嗎？,,,
+206,3,user,請給我指南,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+207,1,user,我要轉真人客服，謝謝,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+207,2,assistant,為協助轉接真人客服，請提供可聯絡的 Email（例如 name@example.com）。,,,
+207,3,user,my.mail+test@demo.com,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：my.mail+test@demo.com",1,
+208,1,user,human agent please,Please provide your Email to transfer to a human agent.,1,
+208,2,assistant,"To connect you to a human agent, please provide a valid email address (e.g., name@example.com).",,,
+208,3,user,user@example.com,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：user@example.com",1,
+209,1,user,connect to agent,Please provide your Email to transfer to a human agent.,1,
+209,2,assistant,Please share your email so I can transfer you to a human agent.,,,
+209,3,user,john.doe@sample.org,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：john.doe@sample.org",1,
+210,1,user,34 吋曲面螢幕要選哪支臂？,"為您推薦：JTCG 壁掛式伸縮臂（至 34 吋）
+規格：螢幕支援: 34.0 吋 | 承重: 2-12kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-WALL-ARM-34",4,
+210,2,assistant,可考慮「超寬螢幕重載臂（至 49 吋）」；承重與 VESA 相容性較充足。需不需要確認你的螢幕重量？,,,
+210,3,user,重量大概 8 公斤,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+211,1,user,49 吋超寬螢幕有支援的重載臂嗎？,"為您推薦：JTCG 超寬螢幕重載臂（至 49 吋）
+規格：螢幕支援: 49.0 吋 | 承重: 5-18kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-ULTRAWIDE-49",4,
+211,2,assistant,有，型號「JTCG 超寬螢幕重載臂（至 49 吋）」支援 100x100/200x100 VESA。要商品頁連結嗎？,,,
+211,3,user,給我連結,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+212,1,user,我想壁掛，哪個比較適合？,"建議安裝於磚牆或實心牆面；若為石膏板/輕隔間需使用對應膨脹螺絲或請專業安裝。請先評估牆面承重。
+🔗 詳情參考: https://example.com/jtcg/guides/wall-mount",3,
+212,2,assistant,可參考「壁掛式伸縮臂（至 34 吋）」；請確認牆面可承重並使用對應膨脹螺絲。需要牆體條件說明嗎？,,,
+212,3,user,牆面是石膏板，行嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+213,1,user,有沒有筆電托盤可以裝在臂架上？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+213,2,assistant,有，「筆電托盤＋VESA 轉接組」可搭配支援 VESA 的臂架使用，適用 11–16 吋筆電。需要連結嗎？,,,
+213,3,user,好，貼上來,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+214,1,user,走線管理套件你們有賣嗎？,"建議沿臂架後側與走線槽固定，預留轉動餘量避免拉扯。轉接器與變壓器避免懸空以降低接口受力。
+🔗 詳情參考: https://example.com/jtcg/guides/cable-management",3,
+214,2,assistant,有，商品為「桌面走線管理組」。可協助整理臂架與桌下線材。要看內容物清單嗎？,,,
+214,3,user,內容物有哪些？,"標配包含臂架本體、夾具/穿孔配件、六角扳手、VESA 螺絲組（型號依商品而異）。穿孔安裝可能需要電鑽與量尺（自備）。
+🔗 詳情參考: https://example.com/jtcg/guides/unbox-setup",3,
+215,1,user,可以用 Apple Pay 或 LINE Pay 付款嗎？,"JTCG Shop 支援信用卡（VISA/Master/JCB）、Apple Pay、Google Pay、LINE Pay。部分銀行提供 3/6/12 期分期，實際手續費與門檻以結帳頁提示為準。
+🔗 詳情參考: https://example.com/jtcg/policies/payment",3,
+215,2,assistant,支援信用卡、Apple Pay、Google Pay、LINE Pay；部分銀行有 3/6/12 期分期，依結帳頁為準。要我帶你到付款說明嗎？,,,
+215,3,user,帶我看看付款說明,"JTCG Shop 支援信用卡（VISA/Master/JCB）、Apple Pay、Google Pay、LINE Pay。部分銀行提供 3/6/12 期分期，實際手續費與門檻以結帳頁提示為準。
+🔗 詳情參考: https://example.com/jtcg/policies/payment",3,
+216,1,user,海外可以寄新加坡嗎？運費怎麼算？,"目前主要配送台灣本島；離島/外島運費與時程將於結帳頁顯示。海外配送可先透過客服評估可行方案與預估費用。
+🔗 詳情參考: https://example.com/jtcg/policies/international",3,
+216,2,assistant,主要配送台灣本島；海外配送可先讓客服評估可行方案與費用。需要我幫你轉真人評估嗎？,,,
+216,3,user,好，那轉真人吧,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+217,1,user,缺貨可以設定到貨通知嗎？,"商品頁可點選「到貨通知我」，系統會在補貨後以 Email 通知。提醒僅代表可下單，實際購買以結帳成功為準。
+🔗 詳情參考: https://example.com/jtcg/account/notifications",3,
+217,2,assistant,可以，在商品頁點選「到貨通知我」，補貨後會以 Email 通知。要我協助你找到該商品頁嗎？,,,
+217,3,user,請幫我找 JTCG-ARM-SINGLE-LITE-27,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+218,1,user,有提供到府安裝嗎？台北地區,"特定地區提供到府安裝（由合作廠商執行），費用依地區與安裝難度另計。下單前可先與客服確認是否支援。
+🔗 詳情參考: https://example.com/jtcg/services/installation",3,
+218,2,assistant,部分地區提供到府安裝（由合作廠商執行），費用依地區與難度另計。我可以先幫你留下聯絡資料給客服嗎？,,,
+218,3,user,先不用，我想看價目,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+219,1,user,夾具跟穿孔固定哪個比較穩？,"夾具安裝免鑽孔、便利度高；穿孔固定穩定性更佳、適合厚桌板或特殊材質。若為玻璃/軟木桌板，建議使用墊片或改穿孔。
+🔗 詳情參考: https://example.com/jtcg/guides/clamp-vs-grommet",3,
+219,2,assistant,穿孔固定穩定度較高；夾具免鑽孔、安裝快。若桌板材質特殊或很厚，建議選穿孔。需要比較文章嗎？,,,
+219,3,user,貼比較文章,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+220,1,user,螢幕 6 公斤可以用哪款臂架？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+220,2,assistant,6 公斤多數單臂可支援；若要更順暢建議選氣壓臂。你偏好單臂還是雙臂？,,,
+220,3,user,單臂就好,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+221,1,user,氣壓臂張力要怎麼調整才會停在我要的高度？,"安裝後以附贈六角扳手順時針/逆時針微調張力，使螢幕能穩定停在常用高度。請逐步調整並避免一次轉動過多圈數。
+🔗 詳情參考: https://example.com/jtcg/guides/gas-spring-tuning",3,
+221,2,assistant,使用附贈六角扳手微調；順時針/逆時針調整張力，讓螢幕能穩定停住。要看圖解指南嗎？,,,
+221,3,user,請給我圖解,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+222,1,user,如果我的螢幕沒有 VESA 孔可以怎麼裝？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+222,2,assistant,可用 VESA 轉接板或筆電托盤，需確認尺寸與負重。要我推薦轉接方案嗎？,,,
+222,3,user,推薦給我,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+223,1,user,家裡有小孩，臂架安全要注意什麼？,"夾具建議加裝保護墊片，避免桌面刮傷。請避免孩童攀爬或懸掛螢幕臂，並定期檢查螺絲鎖固狀況。
+🔗 詳情參考: https://example.com/jtcg/guides/safety",3,
+223,2,assistant,建議加裝桌面保護墊片、避免孩童攀掛、定期檢查螺絲鎖固與走線。要安全清單給你嗎？,,,
+223,3,user,好，給清單,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+224,1,user,壁掛安裝對牆體有什麼要求？,"特定地區提供到府安裝（由合作廠商執行），費用依地區與安裝難度另計。下單前可先與客服確認是否支援。
+🔗 詳情參考: https://example.com/jtcg/services/installation",3,
+224,2,assistant,建議磚牆或實心牆；若石膏板需對應膨脹螺絲 or 專業安裝。要參考壁掛指南嗎？,,,
+224,3,user,給我指南連結,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+225,1,user,RMA 要怎麼申請？要哪些資料？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+225,2,assistant,請提供訂單編號與故障照片/影片，線上表單填寫後，客服會回覆處理時程。要我送你到 RMA 表單嗎？,,,
+225,3,user,是的，謝謝,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+226,1,user,電子發票可以重發或改抬頭嗎？,"本店提供電子發票，出貨完成後將以 Email 寄送或於會員中心可下載查詢。若需三聯式發票，請於下單時備註統編與抬頭。
+🔗 詳情參考: https://example.com/jtcg/policies/invoice",3,
+226,2,assistant,可在會員中心補發下載；抬頭/統編需於下單時填寫，若遺漏請在出貨前聯繫客服協助。需要操作步驟嗎？,,,
+226,3,user,請給步驟,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+227,1,user,公司大量採購可以談專案報價嗎？學校也可以嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+227,2,assistant,可以，企業/學校均可評估專案報價與安裝服務。要留下需求數量與地點給我們嗎？,,,
+227,3,user,我要先拿一份聯絡表,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+228,1,user,退貨流程跟退款大概多久會完成？,"線上提出申請→包裝回收→檢查完成後辦理退款。退款時程約 7–14 個工作天，依支付方式與銀行作業為準。
+🔗 詳情參考: https://example.com/jtcg/policies/return-flow",3,
+228,2,assistant,退貨：提出申請→回收→檢查→退款，通常約 7–14 個工作天（依支付方式與銀行作業）。要我提供申請入口嗎？,,,
+228,3,user,好，給我入口,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+229,1,user,要怎麼查物流追蹤？我想確認包裹在哪裡。,"出貨後可於「我的訂單」頁點擊追蹤碼查看最新配送狀態。若長時間無更新，請聯繫客服協助查詢。
+🔗 詳情參考: https://example.com/jtcg/account/orders",3,
+229,2,assistant,出貨後可在「我的訂單」點擊追蹤碼查看。要我幫你查訂單嗎？若要，請先提供 user_id。,,,
+229,3,user,我的 user_id 是 u_123456,"為您找到以下訂單：
+- 訂單號: JTCG-202508-10001 | 狀態: in_transit | 品項: ",2,
+230,1,user,會員點數要怎麼用？會過期嗎？,"會員點數可於結帳抵用，不得折換現金。有效期限與可用規則以會員中心公告為準。
+🔗 詳情參考: https://example.com/jtcg/account/rewards",3,
+230,2,assistant,點數可於結帳抵用，無法折現；效期與規則以會員中心公告為準。要我帶你看說明頁嗎？,,,
+230,3,user,好的，謝謝,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+231,1,user,臂架平常應該怎麼保養清潔？,"建議以微濕布擦拭，避免使用含溶劑之清潔劑。定期檢查關節與螺絲是否鬆動並適度調整。
+🔗 詳情參考: https://example.com/jtcg/guides/care",3,
+231,2,assistant,以微濕布擦拭，避免溶劑；定期檢查關節與螺絲，必要時小幅調整。要保養指南嗎？,,,
+231,3,user,給我指南連結,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+232,1,user,桌深與牆距要留多少比較好？我怕臂展不夠。,"臂展會影響可調整範圍；一般建議桌深至少 60cm，桌面後方保留 10–15cm 以利走線與臂架活動。
+🔗 詳情參考: https://example.com/jtcg/guides/desk-space",3,
+232,2,assistant,一般建議桌深至少 60cm，後方保留 10–15cm 利於走線與活動。需要我幫你比對特定型號臂展嗎？,,,
+232,3,user,幫我比對 32 吋用的款式,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+233,1,user,走線有推薦的整理方式嗎？常被拉扯。,"建議沿臂架後側與走線槽固定，預留轉動餘量避免拉扯。轉接器與變壓器避免懸空以降低接口受力。
+🔗 詳情參考: https://example.com/jtcg/guides/cable-management",3,
+233,2,assistant,可沿臂後側與走線槽固定，預留轉動餘量；轉接器與變壓器避免懸空。要走線指南嗎？,,,
+233,3,user,提供指南，謝謝,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+234,1,user,贈品漏寄可以補寄嗎？需要什麼資料？,"贈品以活動頁標示為準；若到貨未含贈品，請於 7 日內附上開箱照片與訂單資訊，客服將協助補寄。
+🔗 詳情參考: https://example.com/jtcg/promotions/gifts",3,
+234,2,assistant,請於 7 日內提供訂單編號與開箱照片，我們會協助補寄。要我給你申請入口嗎？,,,
+234,3,user,好，謝謝,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+235,1,user,VESA 螺絲要用多長、多大規格？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+235,2,assistant,多數為 M4（約 10–14mm）；大型螢幕可能用到 M6/M8，請以螢幕原廠手冊為準。需要螺絲指引嗎？,,,
+235,3,user,請提供指引,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+236,1,user,可以搭配電動升降桌嗎？升降時會不會拉到線？,"可搭配，但請留意臂展與走線鬆弛度，避免升降時拉扯線材。建議預留 10–15cm 線材餘量，電源變壓器避免懸空。
+🔗 詳情參考: https://example.com/jtcg/guides/sit-stand",3,
+236,2,assistant,可以，建議預留 10–15cm 線材餘量並固定走線，避免升降拉扯。需要走線示意圖嗎？,,,
+236,3,user,需要，謝謝,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+237,1,user,桌後有擋板，夾具還能用嗎？要注意什麼？,"夾具安裝免鑽孔、便利度高；穿孔固定穩定性更佳、適合厚桌板或特殊材質。若為玻璃/軟木桌板，建議使用墊片或改穿孔。
+🔗 詳情參考: https://example.com/jtcg/guides/clamp-vs-grommet",3,
+237,2,assistant,請確認夾持深度與高度是否足夠；若干涉可改穿孔或加延伸固定片。要我幫你評估尺寸嗎？,,,
+237,3,user,擋板高度約 60mm,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+238,1,user,雙螢幕不同尺寸能混搭嗎？會不會歪？,"可混搭，但建議兩側重量相近以利平衡。使用雙臂時，請分別調整各臂張力，使兩台螢幕都能穩定停駐。
+🔗 詳情參考: https://example.com/jtcg/guides/dual-setup",3,
+238,2,assistant,可混搭，建議重量相近並分別調整各臂張力即可。要張力調整教學嗎？,,,
+238,3,user,好，給我教學,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+239,1,user,包裝裡會附什麼？需要自備哪些工具？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+239,2,assistant,標配含臂架、夾具/穿孔配件、六角扳手與 VESA 螺絲；穿孔安裝可能需自備電鑽。要開箱清單嗎？,,,
+239,3,user,請提供清單,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+240,1,user,剛收到外箱破損，還有零件少了，怎麼處理？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+240,2,assistant,請拍照外箱與內容物，於 7 日內連同訂單編號回報，我們會協助補件或售後處理。需要申請頁面嗎？,,,
+240,3,user,要，謝謝,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+241,1,user,下單後可以改地址或換商品嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+241,2,assistant,未出貨前可協助修改；若已入出貨流程，可能需取消重下。要我幫你確認訂單狀態嗎？提供 user_id 即可。,,,
+241,3,user,user_id 是 u_999999,"為您找到以下訂單：
+- 訂單號: JTCG-202508-11021 | 狀態: processing | 品項: ",2,
+242,1,user,我想取消訂單並退款，可以嗎？,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+242,2,assistant,未出貨可取消；已出貨需走退貨流程。退款約 7–14 個工作天。要我協助提交取消嗎？,,,
+242,3,user,先查狀態再決定,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+243,1,user,預購品會不會跟現貨分開寄？運費怎算？,"預購品將依頁面標示時程到貨；若同單含現貨與預購，可能採分批出貨。運費計算與是否合併以結帳頁為準。
+🔗 詳情參考: https://example.com/jtcg/policies/preorder-shipping",3,
+243,2,assistant,可能分批出貨；運費與是否合併以結帳頁為準。需要我幫你看該商品頁的說明嗎？,,,
+243,3,user,好，麻煩,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+244,1,user,保固需要另外登錄嗎？可以轉移給下一位買家嗎？,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+244,2,assistant,部分商品可線上登錄；保固通常限原始購買者，不隨轉售轉移。要登錄頁面嗎？,,,
+244,3,user,給我看登錄頁,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+245,1,user,臂架有異音，該怎麼排除？,"輕微金屬摩擦聲屬正常磨合；若異音明顯，建議檢查螺絲鎖付與走線是否干涉，必要時於關節轉點施以少量潤滑（請勿沾染面板）。
+🔗 詳情參考: https://example.com/jtcg/guides/maintenance",3,
+245,2,assistant,先檢查螺絲鎖付與走線干涉；必要時在關節轉點少量潤滑。要保養/異音指南嗎？,,,
+245,3,user,是，請給我,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+246,1,user,可以單買螺絲或轉接板嗎？在哪裡找？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+246,2,assistant,可於配件館選購；若找不到對應零件，請提供 SKU 與需求給客服協助。要我幫你找配件頁嗎？,,,
+246,3,user,幫我找一下,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+247,1,user,剛買就降價會補差嗎？條件是什麼？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+247,2,assistant,是否補差依活動頁公告；不同檔期可能不適用價格保護。需要價格政策連結嗎？,,,
+247,3,user,需要,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+248,1,user,你們會怎麼使用我提供的 Email？會拿去行銷嗎？,"您提供的 Email 僅用於本次服務聯繫與訂單通知，不做行銷用途。更多細節請參考隱私權政策。
+🔗 詳情參考: https://example.com/jtcg/policies/privacy",3,
+248,2,assistant,Email 僅用於本次服務聯繫與訂單通知，不做行銷用途。更多可見隱私權政策。要載點嗎？,,,
+248,3,user,好，給我,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+249,1,user,我要查訂單狀態，幫我看一下最近那筆。,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+249,2,assistant,沒問題，請先提供 user_id，我會先列出你的訂單供選擇要查哪一筆。,,,
+249,3,user,u_333333,找不到 User ID: u_333333 的訂單資料。,2,
+250,1,user,幫我查配送進度，我有追蹤碼嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+250,2,assistant,我可以幫你查，請先提供 user_id；列出訂單後你再指定 order_id，我就能提供追蹤資訊。,,,
+250,3,user,user_id u_444444,找不到 User ID: u_444444 的訂單資料。,2,
+251,1,user,查訂單 JTCG-202508-10001 的明細內容。,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+251,2,assistant,為保護資料，我會先列出你的訂單讓你指認。請先提供 user_id，我再帶你選擇對應的 order_id。,,,
+251,3,user,我的 user_id 是 u_123456,"為您找到以下訂單：
+- 訂單號: JTCG-202508-10001 | 狀態: in_transit | 品項: ",2,
+252,1,user,想看我的訂單列表。,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+252,2,assistant,好的，請提供 user_id，我會列出你的 order_id 清單供你選擇查詢。,,,
+252,3,user,u_empty,找不到 User ID: u_empty 的訂單資料。,2,
+253,1,user,在線客服還有營業嗎？今天可以聊嗎？,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+253,2,assistant,線上客服時段為週一至週五 09:30–18:00（國定假日除外）。若需要轉真人，請提供 Email。,,,
+253,3,user,那先給我轉真人吧,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+254,1,user,service hours for support?,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+254,2,assistant,"Our live support hours are Mon–Fri 09:30–18:00 (Taiwan time). If you need a human agent, please provide your email.",,,
+254,3,user,"ok, john@acme.co","【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：john@acme.co",1,
+255,1,user,請推薦 32 吋可用的單臂款式，桌深 60cm。,"臂展會影響可調整範圍；一般建議桌深至少 60cm，桌面後方保留 10–15cm 以利走線與臂架活動。
+🔗 詳情參考: https://example.com/jtcg/guides/desk-space",3,
+255,2,assistant,可參考「單臂支架 Lite（至 27 吋）」若螢幕較輕；或重視流暢度可選氣壓臂款。你的螢幕重量大約幾公斤？,,,
+255,3,user,大約 4.5 公斤,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+256,1,user,我要雙螢幕加筆電托盤一起用，怎麼搭比較好？,"可混搭，但建議兩側重量相近以利平衡。使用雙臂時，請分別調整各臂張力，使兩台螢幕都能穩定停駐。
+🔗 詳情參考: https://example.com/jtcg/guides/dual-setup",3,
+256,2,assistant,可用「雙螢幕氣壓臂 Pro」搭配「筆電托盤＋VESA 轉接組」。要我把兩個商品頁都給你嗎？,,,
+256,3,user,好，兩個都給,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+257,1,user,VESA 200x100 的螢幕可以用你們哪款？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+257,2,assistant,「超寬螢幕重載臂（至 49 吋）」支援 200x100。要我確認你的螢幕重量是否在承重範圍嗎？,,,
+257,3,user,重量 10 公斤內,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+258,1,user,我的桌子是玻璃材質，夾具會不會壓裂？有什麼建議？,"夾具安裝免鑽孔、便利度高；穿孔固定穩定性更佳、適合厚桌板或特殊材質。若為玻璃/軟木桌板，建議使用墊片或改穿孔。
+🔗 詳情參考: https://example.com/jtcg/guides/clamp-vs-grommet",3,
+258,2,assistant,玻璃桌建議加墊片或改穿孔固定（需專業評估）。也可考慮壁掛方案。要我給你比較資料嗎？,,,
+258,3,user,給我比較資料,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+259,1,user,安裝大概要花多久時間？我有工具。,"特定地區提供到府安裝（由合作廠商執行），費用依地區與安裝難度另計。下單前可先與客服確認是否支援。
+🔗 詳情參考: https://example.com/jtcg/services/installation",3,
+259,2,assistant,一般 20–40 分鐘可完成（依桌面/走線複雜度而異）。要我提供安裝步驟與注意事項嗎？,,,
+259,3,user,好，給我步驟,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+260,1,user,付款失敗怎麼辦？可以重試嗎？,"JTCG Shop 支援信用卡（VISA/Master/JCB）、Apple Pay、Google Pay、LINE Pay。部分銀行提供 3/6/12 期分期，實際手續費與門檻以結帳頁提示為準。
+🔗 詳情參考: https://example.com/jtcg/policies/payment",3,
+260,2,assistant,可先確認卡片/網路狀況並重試；仍失敗可改用其他支付或聯繫客服協助。需要支付說明頁嗎？,,,
+260,3,user,先給我說明頁,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+261,1,user,可以面交嗎？我住台北市區。,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+261,2,assistant,目前以宅配為主，無提供面交。若有時程需求可告訴我，我幫你參考出貨時程。,,,
+261,3,user,那最快何時能到？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+262,1,user,想了解優惠券使用規則與限制。,"每筆訂單限使用一張優惠券；不得與部分專案或企業報價合併使用；活動期間與適用品項以頁面公告為準。
+🔗 詳情參考: https://example.com/jtcg/promotions",3,
+262,2,assistant,每筆訂單限用一張，且部分專案/企業報價不適用；活動期間與適用品項以頁面公告為準。要活動總覽嗎？,,,
+262,3,user,好的,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+263,1,user,我要變更發票抬頭，出貨前可以改嗎？,"本店提供電子發票，出貨完成後將以 Email 寄送或於會員中心可下載查詢。若需三聯式發票，請於下單時備註統編與抬頭。
+🔗 詳情參考: https://example.com/jtcg/policies/invoice",3,
+263,2,assistant,可於出貨前由客服協助修改。要我幫你轉真人處理嗎？若要，請提供 Email。,,,
+263,3,user,ok，email 是 finance@corp.tw,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：finance@corp.tw",1,
+264,1,user,客服聯絡方式是什麼？有信箱嗎？,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+264,2,assistant,可透過線上客服表單或指定信箱聯繫；我也能幫你轉真人協助。需要我先轉接嗎？,,,
+264,3,user,先不用，給我表單就好,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+265,1,user,退款大概多久會到帳？信用卡支付,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+265,2,assistant,退款約 7–14 個工作天，實際依銀行作業為準。需要退貨/取消流程連結嗎？,,,
+265,3,user,好，請提供,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+266,1,user,How to track my order status on your site?,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+266,2,assistant,"Go to “My Orders” and click the tracking code. If you want me to check, please provide your user_id and then choose an order_id.",,,
+266,3,user,user_id is u_555555,找不到 User ID: u_555555 的訂單資料。,2,
+267,1,user,Do you ship internationally? I’m in Japan.,"Hello! I'm the JTCG Assistant. I can help with order tracking, FAQs, or product specs. How can I help today?",5,
+267,2,assistant,"We mainly ship within Taiwan. For overseas shipping, we can escalate to a human agent to evaluate options—share your email if you’d like me to transfer you.",,,
+267,3,user,okay: jpbuyer@mail.jp,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：jpbuyer@mail.jp",1,
+268,1,user,"Need invoice reissue, lost the email.","您提供的 Email 僅用於本次服務聯繫與訂單通知，不做行銷用途。更多細節請參考隱私權政策。
+🔗 詳情參考: https://example.com/jtcg/policies/privacy",3,
+268,2,assistant,"You can re-download the e-invoice in your account after shipment. If you need help, I can transfer you—please share your email.",,,
+268,3,user,send to billing@xyz.com,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：billing@xyz.com",1,
+269,1,user,请问这款支架支持75×75吗？（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+269,2,assistant,支持，JTCG 多数臂架兼容 75×75 与 100×100。需要我给你对应型号的链接吗？（简体）,,,
+269,3,user,给链接（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+270,1,user,退货政策是什么？（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+270,2,assistant,提供 7 天鉴赏期，商品需保持全新与配件完整；非瑕疵退换可能需自行承担运费。需要政策页面吗？（简体）,,,
+270,3,user,要（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+271,1,user,发票怎么开？能填公司抬头吗？（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+271,2,assistant,可以三联电子发票；下单时填写税号与抬头。出货后会寄送邮件且可在会员中心下载。（简体）,,,
+271,3,user,好（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+272,1,user,有没有49寸显示器可用的重载臂？（简体）,"為您推薦：JTCG 超寬螢幕重載臂（至 49 吋）
+規格：螢幕支援: 49.0 吋 | 承重: 5-18kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-ULTRAWIDE-49",4,
+272,2,assistant,有，推荐“超宽显示器重载臂（至49寸）”，支持100×100/200×100 VESA。（简体）,,,
+272,3,user,给我商品链接（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+273,1,user,我要查询订单（简体）,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+273,2,assistant,请先提供 user_id，我会列出你的订单编号供你选择要查询的订单。（简体）,,,
+273,3,user,user_id u_222222（简体）,"為您找到以下訂單：
+- 訂單號: JTCG-202508-12005 | 狀態: shipped | 品項: ",2,
+274,1,user,客服時段是幾點到幾點？假日有嗎？,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+274,2,assistant,週一至週五 09:30–18:00，國定假日休息。如需轉真人，請提供 Email。,,,
+274,3,user,那我留 email：help@me.com,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：help@me.com",1,
+275,1,user,離島運費如何計算？會比較久嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+275,2,assistant,離島/外島運費與時程將於結帳頁顯示，通常較本島久一些。要我幫你估算某品項嗎？,,,
+275,3,user,不用，先知道規則就好,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+276,1,user,螢幕 8 公斤，VESA 100x100，推薦哪款單臂？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+276,2,assistant,建議選擇氣壓臂款以保留調整餘裕；如需更穩可考慮重載臂。要我比對兩款差異嗎？,,,
+276,3,user,比對給我,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+277,1,user,我有兩台 27 吋要左右並排，哪個雙臂適合？,"為您推薦：JTCG 單臂支架 Lite（至 27 吋）
+規格：螢幕支援: 27.0 吋 | 承重: 1-6kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-SINGLE-LITE-27",4,
+277,2,assistant,「雙螢幕氣壓臂 Pro（至 32 吋）」適合並排，且支援 VESA 75/100。要商品頁嗎？,,,
+277,3,user,要,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+278,1,user,請直接幫我轉真人，問題很多不想打字了。,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+278,2,assistant,了解，請提供可聯絡的 Email，我會立即為你轉接真人客服。,,,
+278,3,user,c@d.cc,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：c@d.cc",1,
+279,1,user,我想比較雙臂與壁掛的差異，你建議哪個？,"建議安裝於磚牆或實心牆面；若為石膏板/輕隔間需使用對應膨脹螺絲或請專業安裝。請先評估牆面承重。
+🔗 詳情參考: https://example.com/jtcg/guides/wall-mount",3,
+279,2,assistant,桌面彈性高→雙臂；節省桌面並有牆面條件→壁掛。看你是否能鑽牆與承重條件。要比較文章嗎？,,,
+279,3,user,請給比較文章,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+280,1,user,活動優惠怎麼用？可以和企業報價一起用嗎？,"可提供專案報價、到府安裝與教育/企業折扣評估。請提供需求數量、安裝地點與時程以利評估。
+🔗 詳情參考: https://example.com/jtcg/b2b/quote",3,
+280,2,assistant,每單限一張券，且多數專案或企業報價不併用。以活動頁公告為準。要我傳活動頁嗎？,,,
+280,3,user,好,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+281,1,user,我想看訂單列表再決定要查哪一筆配送。,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+281,2,assistant,請提供 user_id，我會先列出你的 order_id 清單，之後你再指定要查的一筆。,,,
+281,3,user,u_555555,找不到 User ID: u_555555 的訂單資料。,2,
+282,1,user,這款臂架支援 USB 集線嗎？我想桌面少拉幾條線。,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+282,2,assistant,目前多數臂架無內建 USB Hub，可搭配走線管理或外接集線器。要我推薦走線配件嗎？,,,
+282,3,user,好，推薦我,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+283,1,user,請問 JTCG-ARM-DUAL-PRO-32 的 VESA 支援哪些？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+283,2,assistant,支援 75x75、100x100。若螢幕較重或超寬建議加強背板。需要商品頁嗎？,,,
+283,3,user,好，給我,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+284,1,user,請幫我查訂單配送，剛剛下單沒多久。,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+284,2,assistant,我可以協助，請先提供 user_id；列出訂單後你再回覆要查的 order_id。,,,
+284,3,user,user_id u_222222,"為您找到以下訂單：
+- 訂單號: JTCG-202508-12005 | 狀態: shipped | 品項: ",2,
+285,1,user,我需要客服打電話給我，直接轉真人就好。,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+285,2,assistant,可以，請提供可聯絡的 Email（僅用於此次服務），確認後我立刻轉接真人客服。,,,
+285,3,user,contact@home.tw,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：contact@home.tw",1,
+286,1,user,臂架可不可以直立旋轉 90 度？我要直立顯示器。,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+286,2,assistant,多數款式支援 ±90° 旋轉；請確認你的螢幕重量與 VESA。要我列幾款支援直立的型號嗎？,,,
+286,3,user,列給我,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+287,1,user,請問客服表單在哪？我有安裝的問題想問。,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+287,2,assistant,我可以提供線上客服表單連結；也可直接轉真人，請提供 Email。你偏好哪種？,,,
+287,3,user,先表單就好,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+288,1,user,我想用 LINE Pay，有回饋嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+288,2,assistant,是否有回饋依活動公告與付款頁提示為準；我可以帶你看付款說明或活動頁。要哪個？,,,
+288,3,user,活動頁,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+289,1,user,海外退貨可以嗎？流程會很複雜嗎？,"目前主要配送台灣本島；離島/外島運費與時程將於結帳頁顯示。海外配送可先透過客服評估可行方案與預估費用。
+🔗 詳情參考: https://example.com/jtcg/policies/international",3,
+289,2,assistant,需先由客服評估與協助安排，流程時間依物流而異。我可轉真人協助，請提供 Email。,,,
+289,3,user,ok，我的 email 是 r@o.cc,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：r@o.cc",1,
+290,1,user,幫我比較一下兩款雙螢幕支架的差別，重視穩定度。,"可混搭，但建議兩側重量相近以利平衡。使用雙臂時，請分別調整各臂張力，使兩台螢幕都能穩定停駐。
+🔗 詳情參考: https://example.com/jtcg/guides/dual-setup",3,
+290,2,assistant,在穩定度上，氣壓臂調整流暢、承重餘裕佳；壁掛則最穩但需牆面條件。你更傾向桌夾還是壁掛？,,,
+290,3,user,桌夾就好,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+291,1,user,我想先看訂單 ID，再指定要查哪一筆。,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+291,2,assistant,收到，請提供 user_id，我會列出你的 order_id 清單供你選擇。,,,
+291,3,user,u_777777,找不到 User ID: u_777777 的訂單資料。,2,
+292,1,user,桌面空間小，臂架會不會卡到牆？有什麼建議配置？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+292,2,assistant,建議桌深≥60cm、後方留 10–15cm；可選伸縮臂或縮短臂展配置。要我依你的螢幕尺寸給配置建議嗎？,,,
+292,3,user,螢幕 27 吋,"為您推薦：JTCG 單臂支架 Lite（至 27 吋）
+規格：螢幕支援: 27.0 吋 | 承重: 1-6kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-SINGLE-LITE-27",4,
+293,1,user,請問可否貨到付款？我不想刷卡。,"JTCG Shop 支援信用卡（VISA/Master/JCB）、Apple Pay、Google Pay、LINE Pay。部分銀行提供 3/6/12 期分期，實際手續費與門檻以結帳頁提示為準。
+🔗 詳情參考: https://example.com/jtcg/policies/payment",3,
+293,2,assistant,目前以信用卡與電子支付為主，貨到付款暫不提供。要我提供可用的支付方式列表嗎？,,,
+293,3,user,提供列表,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+294,1,user,客服可以直接打電話給我嗎？不用 email。,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+294,2,assistant,我可以協助轉真人，但需要你提供有效 Email 作為聯繫依據，再由客服與你安排。請提供 Email。,,,
+294,3,user,phoneonly@noemail,"您提供的 Email 僅用於本次服務聯繫與訂單通知，不做行銷用途。更多細節請參考隱私權政策。
+🔗 詳情參考: https://example.com/jtcg/policies/privacy",3,
+295,1,user,我不確定要買哪款，你可以問我幾個問題幫我選嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+295,2,assistant,當然可以！請先告訴我：螢幕尺寸/重量、VESA 規格、是否要雙螢幕、桌板材質與厚度？,,,
+295,3,user,27 吋、約 4.5 公斤、100x100、單螢幕、木桌 30mm,"為您推薦：JTCG 單臂支架 Lite（至 27 吋）
+規格：螢幕支援: 27.0 吋 | 承重: 1-6kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-SINGLE-LITE-27",4,
+296,1,user,我想買 JTCG-LAPTOP-VESA-KIT，能搭配哪些臂架？,"JTCG Shop 臂架支援常見 VESA 75×75、100×100。部分超寬螢幕需使用強化背板或專用轉接板。
+🔗 詳情參考: https://example.com/jtcg/guides/vesa-mounting",3,
+296,2,assistant,任何支援 75x75/100x100 VESA 的臂架都能搭配；要我推薦單臂與雙臂各一款嗎？,,,
+296,3,user,好，各一款,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+297,1,user,請問走線管理組合裡面有托盤嗎？,"建議沿臂架後側與走線槽固定，預留轉動餘量避免拉扯。轉接器與變壓器避免懸空以降低接口受力。
+🔗 詳情參考: https://example.com/jtcg/guides/cable-management",3,
+297,2,assistant,組合含走線套管、束線帶與桌下托盤。要我貼商品頁給你嗎？,,,
+297,3,user,貼上來,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+298,1,user,我想追蹤訂單，但忘了編號怎麼辦？,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+298,2,assistant,沒關係，你提供 user_id，我會列出你的 order_id 清單，之後你再指定要查的一筆。,,,
+298,3,user,user_id = u_333333,找不到 User ID: u_333333 的訂單資料。,2,
+299,1,user,我剛剛付款失敗，怕重複扣款，怎麼確認？,"JTCG Shop 支援信用卡（VISA/Master/JCB）、Apple Pay、Google Pay、LINE Pay。部分銀行提供 3/6/12 期分期，實際手續費與門檻以結帳頁提示為準。
+🔗 詳情參考: https://example.com/jtcg/policies/payment",3,
+299,2,assistant,建議稍後重新整理訂單頁並留意銀行通知；若有疑慮可提供 user_id，我協助查看訂單狀態或轉客服協助。,,,
+299,3,user,我先等等看,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+300,1,user,可以提供到貨通知的步驟嗎？我怕搶不到貨。,"請立即拍攝外箱與內容物狀況，連同訂單編號於 7 日內回報客服。我們會協助更換缺件或安排售後處理。
+🔗 詳情參考: https://example.com/jtcg/support/arrival-issue",3,
+300,2,assistant,在商品頁點「到貨通知我」，登入後填寫 Email 即可。要我直接帶你到該商品頁嗎？,,,
+300,3,user,帶我去 JTCG-ARM-ULTRAWIDE-49,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+301,1,user,我想先問問品牌保固條款，太長不想看全文。可以摘要嗎？,"臂架與支架類商品享有 1 年有限保固。非人為損壞可申請檢測與維修；需提供訂單編號或發票資訊。
+🔗 詳情參考: https://example.com/jtcg/policies/warranty",3,
+301,2,assistant,重點：臂架 1 年有限保固；非人為損壞可送檢維修；申請需訂單或發票資訊。要完整條款連結嗎？,,,
+301,3,user,有需要再說，謝謝,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+302,1,user,我想直接看雙螢幕商品清單前三名就好，簡單比較即可。,"可混搭，但建議兩側重量相近以利平衡。使用雙臂時，請分別調整各臂張力，使兩台螢幕都能穩定停駐。
+🔗 詳情參考: https://example.com/jtcg/guides/dual-setup",3,
+302,2,assistant,可以，我會列出 3 款並說明關鍵差異與連結。先說你的螢幕尺寸與 VESA 規格？,,,
+302,3,user,27 吋，100x100,"為您推薦：JTCG 單臂支架 Lite（至 27 吋）
+規格：螢幕支援: 27.0 吋 | 承重: 1-6kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-SINGLE-LITE-27",4,
+303,1,user,請幫我轉真人，出貨一直沒更新，很著急。,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+303,2,assistant,理解你的狀況，為了轉接真人客服，請提供可聯絡的 Email（例如 name@example.com）。,,,
+303,3,user,urgent@now.me,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：urgent@now.me",1,
+304,1,user,想問一下，臂架可承重 18 公斤的是哪款？有嗎？,"選購臂架時請以「螢幕淨重（不含原廠腳座）」為準，並確認 VESA 規格與臂架承重範圍。超寬/曲面機種建議搭配強化背板。
+🔗 詳情參考: https://example.com/jtcg/guides/weight-compat",3,
+304,2,assistant,重載需求可看「超寬螢幕重載臂（至 49 吋）」；承重區間約 5–18 kg。要我貼商品頁嗎？,,,
+304,3,user,貼上,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+305,1,user,我想把客服轉給真人（human agent），謝謝。,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+305,2,assistant,沒問題，請提供你的 Email，我就會為你轉接真人客服。,,,
+305,3,user,me@hello.world,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：me@hello.world",1,
+306,1,user,能不能給我壁掛臂的伸縮距離資訊？,"建議安裝於磚牆或實心牆面；若為石膏板/輕隔間需使用對應膨脹螺絲或請專業安裝。請先評估牆面承重。
+🔗 詳情參考: https://example.com/jtcg/guides/wall-mount",3,
+306,2,assistant,壁掛式伸縮臂伸展約 500mm，請確認牆面材質與承重。需要商品頁與安裝指南嗎？,,,
+306,3,user,兩個都要,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+307,1,user,如果我今天下單，最快什麼時候會出貨？台北市,"現貨商品於 1–2 個工作天出貨；預購商品依頁面標示為準。標準運送滿 NT$1,500 免運；離島或外島運費另計。
+🔗 詳情參考: https://example.com/jtcg/policies/shipping",3,
+307,2,assistant,現貨一般 1–2 個工作天出貨；實際依倉別與物流排程。要我幫你確認某個 SKU 的現貨狀態嗎？,,,
+307,3,user,JTCG-ARM-DUAL-PRO-32,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+308,1,user,需要我先提供什麼資訊，你才查得到我的訂單？,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+308,2,assistant,請提供 user_id。我會列出你的 order_id 清單，你再指定要查的一筆即可。,,,
+308,3,user,user id 是 u_123456,"為您找到以下訂單：
+- 訂單號: JTCG-202508-10001 | 狀態: in_transit | 品項: ",2,
+309,1,user,請推薦我桌面很小、需要靠牆的配置，用單臂或壁掛都行。,"建議安裝於磚牆或實心牆面；若為石膏板/輕隔間需使用對應膨脹螺絲或請專業安裝。請先評估牆面承重。
+🔗 詳情參考: https://example.com/jtcg/guides/wall-mount",3,
+309,2,assistant,若可鑽牆，壁掛最省空間；若不行，可選短臂或小行程單臂並預留 10–15cm 牆距。你偏好哪一種？,,,
+309,3,user,先看壁掛,"建議安裝於磚牆或實心牆面；若為石膏板/輕隔間需使用對應膨脹螺絲或請專業安裝。請先評估牆面承重。
+🔗 詳情參考: https://example.com/jtcg/guides/wall-mount",3,
+310,1,user,我想用英文問問題，ok 嗎？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+310,2,assistant,"Sure—feel free to ask in English, and I’ll reply in English as well.",,,
+310,3,user,"What mounts fit a 32"" 100x100 monitor?","為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+311,1,user,單臂與氣壓臂差在哪？我在意調整順暢度。,"安裝後以附贈六角扳手順時針/逆時針微調張力，使螢幕能穩定停在常用高度。請逐步調整並避免一次轉動過多圈數。
+🔗 詳情參考: https://example.com/jtcg/guides/gas-spring-tuning",3,
+311,2,assistant,氣壓臂調整更順、可懸停；機械單臂較基本但穩定。若常調整高度，建議選氣壓臂。要看範例款式嗎？,,,
+311,3,user,好，給我,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+312,1,user,如果我要把筆電也掛起來，會不會太重？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+312,2,assistant,請確認臂架承重範圍與托盤重量；多數氣壓臂可支援一般筆電重量。你的筆電約幾公斤？,,,
+312,3,user,大概 1.6 公斤,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+313,1,user,我想看之前所有訂單的 order_id 清單。,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+313,2,assistant,請提供 user_id，我會列出 your order_id 清單，你再指定要查的那一筆。,,,
+313,3,user,u_222222,"為您找到以下訂單：
+- 訂單號: JTCG-202508-12005 | 狀態: shipped | 品項: ",2,
+314,1,user,桌板只有 15mm，夾具會穩嗎？需要加強嗎？,"夾具建議安裝於 10–85mm 厚之桌板；如為玻璃或軟木材質，建議使用墊片或改用穿孔固定方式。
+🔗 詳情參考: https://example.com/jtcg/guides/desk-compat",3,
+314,2,assistant,15mm 可用，多數夾具支援；建議加保護墊片並確認夾持力道。若不安心可改穿孔固定。要安裝建議嗎？,,,
+314,3,user,給建議,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+315,1,user,我想讓螢幕垂直擺放做程式開發，哪款支援旋轉？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+315,2,assistant,多數臂架支援 ±90° 旋轉；以 27–32 吋常見。要我列出支持旋轉的推薦清單嗎？,,,
+315,3,user,列出來,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+316,1,user,我想直接看重載臂，請挑一支最穩的給我。,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+316,2,assistant,建議「超寬螢幕重載臂（至 49 吋）」；承重與相容性較佳。要商品頁與安裝注意事項嗎？,,,
+316,3,user,兩個都要,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+317,1,user,可以把客服轉真人嗎？我想談企業採購方案。,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+317,2,assistant,沒問題，請提供你的 Email，我會把需求轉交專人聯繫你。,,,
+317,3,user,corp@school.edu.tw,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：corp@school.edu.tw",1,
+318,1,user,商品頁寫免運，結帳還是顯示運費，是不是離島不適用？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+318,2,assistant,免運門檻適用本島；離島/外島運費另計，以結帳頁顯示為準。需要我幫你確認地址類別嗎？,,,
+318,3,user,不用了，我知道了,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+319,1,user,你可以幫我查「JTCG-202507-30021」的訂單細節嗎？,"未出貨前可由客服協助修改。若已進入出貨流程，可能需取消訂單重新下單，實際以系統狀態為準。
+🔗 詳情參考: https://example.com/jtcg/policies/order-change",3,
+319,2,assistant,可以，請先提供 user_id，我會列出你的 order_id 清單讓你指認，之後再提供該筆詳情。,,,
+319,3,user,我的 user_id 是 u_333333,找不到 User ID: u_333333 的訂單資料。,2,
+320,1,user,如果要申請 RMA，你們會來收件嗎？還是我自己寄？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+320,2,assistant,流程由客服提供指示，依情況安排收件或自行寄回。要我提供 RMA 申請入口嗎？,,,
+320,3,user,好，提供,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+321,1,user,請問我能不能看 3 個最推薦的單臂款式就好？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+321,2,assistant,可以，我會根據你的尺寸/重量/用途列 3 款。先告訴我螢幕尺寸與重量？,,,
+321,3,user,32 吋，5 公斤左右,"為您推薦：JTCG 雙螢幕氣壓臂 Pro（支援至 32 吋）
+規格：螢幕支援: 32.0 吋 | 承重: 2-9kg
+🔗 產品頁: https://example.com/jtcg/p/JTCG-ARM-DUAL-PRO-32",4,
+322,1,user,我想知道你們是否有客服電話？想直接講。,好的，請提供您的 Email 以便為您轉接真人客服。,1,
+322,2,assistant,你可以先提供 Email，我把你的需求轉給真人客服，會再安排合適的聯繫方式與時間。,,,
+322,3,user,mail@me.io,"【轉接成功】已為您轉接真人客服，請稍候。
+案件摘要：User inquired: '請問你們的退換貨政策是什麼？'
+聯絡信箱：mail@me.io",1,
+323,1,user,請問桌面常移動位置，臂架需要鎖得很緊嗎？會不會刮桌？,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
+323,2,assistant,建議使用保護墊片並適度鎖緊；搬動前先鬆開再重新固定可避免刮傷。要保護建議清單嗎？,,,
+323,3,user,好，給清單,您好！我是 JTCG 助手。我可以幫您查詢訂單、了解退換貨政策或推薦產品。請問您的 User ID 是？或想了解哪款支架？,5,
